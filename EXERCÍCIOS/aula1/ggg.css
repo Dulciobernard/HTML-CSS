@@ -1,0 +1,8 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.pai h1~p{
+ color: #00f3f3;
+}
+ 

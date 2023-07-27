@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Midias em HTML5</title>
+</head>
+<body>
+  <h1>Imagens dinâmica</h1>
+  <p>tente abrir esse site em varios dispositivos diferntes ou simplesmente aumenta e diminua o tamanho do seu navegador</p>
+  <picture>
+    <source media="(max-width: 750px)"  srcset="imagens/fotop.png" type="image/png">
+    <source media="(max-width: 1000px)" srcset="imagens/fotom.png" type="image/png">
+    <source media="(max-width: 2000px)" srcset="imagens/fotoG.png" type="image/png">
+    <img src="imagens/imagen2000.jpg" alt="foto">
+  </picture>
+ <h1>Reproduzido Audio</h1>
+ <p>Adissionando audio no meu site</p>
+ <audio src="imagens/guanacast-33 (1).mp3"controls autoplay loop></audio>
+ <br>
+  <audio preload="metadata" autoplay controls loop >
+
+    <source src="imagens/Zydeco Piano Party - Media Right Productions.mp3" type="audio/mpeg">
+    <source src="imagens/Zydeco Piano Party - Media Right Productions.ogg" type="audio/ogg">
+    <source src="imagens/Zydeco Piano Party - Media Right Productions.wav" type="audio/wav">
+    <p>Infelizmente o seu navegador não consegue Reproduzido nem um dos audios <a href="imagens/Zydeco Piano Party - Media Right Productions.mp3" target="_blank" rel="external">Click aqui para baixar o audio</a></p>
+
+  </audio>
+  <p>Infelizmente o seu navegador não consegue Reproduzido nem um dos audios <a href="imagens/Zydeco Piano Party - Media Right Productions.mp3" target="_blank" rel="external">Click aqui para baixar o audio</a></p>
+  
+
+</body>
+</html>

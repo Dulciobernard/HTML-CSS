@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: sans-serif;
+
+        }
+        table{
+            border-collapse: collapse  ;
+            width: 800px;
+        }
+        table td, table th{
+            border: 1px solid #ddd ;
+            padding: 5px;
+        }
+        table caption{
+          caption-side: top;
+          text-align: left;
+          font-style: italic;
+          font-weight: bold;
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+        tfoot ,table th{
+            background-color: #ccc;
+        }
+        #ad{
+          text-align: center;
+        }
+        .db{
+          max-width: 100%;
+          overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+   <p>Lorem ipsum dolor sit ,</p>
+   <div class="db">
+     <table>
+      <caption>Uma descriçao para Tabela</caption>
+       <thead>
+        <tr>
+          <th>Título 1</th>
+          <th>Título 2</th>
+          <th>Título 3</th>
+          <th>Título 4</th>
+        </tr>
+       </thead>
+       <tbody>
+          <tr>
+              <td id="ad"  colspan="2">Título 5</td>
+              <td>Título 7</td>
+              <td>Título 8</td>
+            </tr>
+            <tr>
+              <td>Título 9</td>
+              <td>Título 10</td>
+              <td>Título 11</td>
+              <td>Título 12</td>
+            </tr>
+            <tr>
+              <td>Título 13</td>
+              <td>Título 14</td>
+              <td>Título 15</td>
+              <td>Título 16</td>
+            </tr>
+              <tfoot>
+                <tr>
+                  <td colspan="3" rowspan="3"></td>
+                  <td rowspan="3">Total: <br>5000kz</td>
+                </tr>
+                <tr>
+                </tr>
+              </tfoot>
+       </tbody>
+     
+     </table>
+   </div>
+</body>
+</html>
