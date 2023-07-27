@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-ao">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>background image</title>
+  <style>
+    body{
+      background-image: url(img/wallpaper001.jpg);
+    }
+    .Quadrado{
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: lightgray;
+
+      width: 200px;
+      height: 200px;
+    }
+    div#q1{
+    background-image: url(img/pattern001.png);
+    }
+    
+    div#q2{
+      background-image: linear-gradient(to bottom ,yellow ,red) ;
+    }
+    div#q3{
+      background-image: url(img/pattern003.png);
+    }
+    
+  </style>
 </head>
 <body>
-  
+  <div class="Quadrado" id="q1"></div>
+  <div class="Quadrado" id="q2"></div>
+  <div class="Quadrado" id="q3"></div>
 </body>
 </html>
