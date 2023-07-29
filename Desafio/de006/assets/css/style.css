@@ -47,10 +47,12 @@ section.normal{
     font-size: 47px;
     padding:  50px 40px 40px 40px;
 }
-#img01{
- background-image: url(img/background001.jpg);
+section#img01{
+    background-color: dimgray;
+    background-image: url(im);
 }
-#img02{
+section#img02{
+    background-color: dimgray;
     background-image: url(img/background002.jpg);
 }
 footer{
