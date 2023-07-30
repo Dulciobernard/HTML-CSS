@@ -51,28 +51,31 @@ section.normal{
     font-family: var(--fonte3);
     font-size: 47px;
     color: white;
-    padding:  50px 40px 40px 40px;
+    padding: 50px 30px;
 }
 section#img01{
     background-color: dimgray;
     background-attachment: fixed;
     background-position: center center;
     background-image: url(imagens/background001.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
 }
 #img01>p{
     background-color: rgba(0, 0, 0, 0.521);
-    width:560px;
+    width: 600px;
+
+
 }
+
 section#img02{
     background-attachment: fixed;
     background-color: dimgray;
     background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 #img02>p{
     background-color: rgba(0, 0, 0, 0.521);
-
-    width:560px;
+    width: 600px;
 }
 footer{
     background-color: black;
