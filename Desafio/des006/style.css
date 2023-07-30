@@ -11,6 +11,10 @@
     margin: 0px;
     padding: 0px;
 }
+html,body{
+    min-height: 100%;
+    background-color: darkgray;
+}
 header {
     background-color: black;
     color: white;
@@ -22,9 +26,10 @@ header h1{
     font-size: 136px;
     font-weight: bold;
     font-family: var(--fonte2);
-    padding-top: 40px;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
-header p{
+header > p{
     font-family: Verdana,cursive ;
     font-size: 16px;
     padding-bottom: 50px;
@@ -35,23 +40,35 @@ header p > a{
     text-decoration: none;
     font-family: var(--fonte1) ;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 header p >a:hover{
     text-decoration: underline;
 }
-section.normal{
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+    color: black;
     font-family: var(--fonte3);
     font-size: 47px;
-    padding:  50px 40px 40px 40px;
+
+    
 }
 .imagem{
-    line-height: 2em;
+    background-color: black;
+    color: white;
     font-family: var(--fonte3);
     font-size: 47px;
-    color: white;
-    padding: 50px 30px;
+}
+.imagem>p{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 600px;
 }
 section#img01{
     background-color: dimgray;
@@ -60,23 +77,13 @@ section#img01{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
 }
-#img01>p{
-    background-color: rgba(0, 0, 0, 0.521);
-    width: 600px;
-
-
-}
-
 section#img02{
     background-attachment: fixed;
     background-color: dimgray;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
 }
-#img02>p{
-    background-color: rgba(0, 0, 0, 0.521);
-    width: 600px;
-}
+
 footer{
     background-color: black;
     padding: 10px;
@@ -85,7 +92,7 @@ footer p{
     color: white;
     text-align: center;
     font-family: var(--fonte1) ;
-    font-size: 16px;
+  
 }
 footer p>a{
     color: white;
