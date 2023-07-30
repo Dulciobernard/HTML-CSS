@@ -14,6 +14,7 @@
 html,body{
     min-height: 100%;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header {
     background-color: black;
@@ -23,7 +24,7 @@ header {
 }
 
 header h1{
-    font-size: 136px;
+    font-size: 10vw;
     font-weight: bold;
     font-family: var(--fonte2);
     font-variant: small-caps;
@@ -31,15 +32,12 @@ header h1{
 }
 header > p{
     font-family: Verdana,cursive ;
-    font-size: 16px;
     padding-bottom: 50px;
 }
 header p > a{
     padding-bottom: 50px;
     color: white;
     text-decoration: none;
-    font-family: var(--fonte1) ;
-    font-size: 16px;
     font-weight: bolder;
 }
 header p >a:hover{
@@ -50,27 +48,25 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4 vw;
 }
 section.normal{
     background-color: white;
-    color: black;
-    font-family: var(--fonte3);
-    font-size: 47px;
-
-    
+    color: black;  
 }
 .imagem{
     background-color: black;
     color: white;
-    font-family: var(--fonte3);
-    font-size: 47px;
+    height: 100vh;
 }
 .imagem>p{
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0.521);
-    width: 600px;
+   display: inline-block;
+   padding: 5px;
+    background-color: rgba(0, 0, 0, 0.221);
 }
 section#img01{
+   
     background-color: dimgray;
     background-attachment: fixed;
     background-position: center center;
@@ -91,7 +87,6 @@ footer{
 footer p{
     color: white;
     text-align: center;
-    font-family: var(--fonte1) ;
   
 }
 footer p>a{
