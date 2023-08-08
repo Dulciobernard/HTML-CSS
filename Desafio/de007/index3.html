@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         table{
-            width: 400px;
+            
             border-collapse: collapse;
         }
         td,th{
@@ -15,36 +15,41 @@
             padding: 10px;
             
         }
+        caption{
+            font-size: 3em;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
      <table>
+        <caption>Filmes favoritos</caption>
         <tr>
-            <th>Grupo</th>
-            <th colspan="2">Nomes</th>
-            <th colspan="3">Filmes</th>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th scope="colgroup" colspan="3">Filmes</th>
             
         </tr>
         <tr>
-          <th rowspan="3">Mulheres</th>
-          <td colspan="2">Ana Maria santos</td>
+          <th scope="rowgroup" rowspan="3">Mulheres</th>
+          <td >Ana Maria santos</td>
           <td>Alien</td>
           <td>Rambo</td>
           <td>Vingadores</td>
         </tr>
         <tr>
-            <td colspan="2">Beatriz souza</td>
+            <td>Beatriz souza</td>
             <td>Hulk</td>
             <td>Incetion</td>
             <td>Batman</td>
         </tr>
         <tr>
-            <td colspan="2">Cláudia Melo</td>
+            <td >Cláudia Melo</td>
             <td>Obivion</td>
             <td>Matrix</td>
             <td>Big Hero</td>
         </tr>  
-        <th rowspan="4">Homens</th> 
+        <th scope="rowgroup" rowspan="4">Homens</th> 
         <tr>
             <td >Bruno Mendonça</td>
             <td>Intocáveis</td>
