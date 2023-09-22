@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-aoa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+    <form action="" method="post">
+        <p>
+            <fieldset>
+                <legend>
+                    Dados pessoais
+                </legend>
+            <label for="inome">NOME:</label>
+            <input type="text" name="nome" id="inome" required
+            minlength="5" maxlength="20">
+        </p>
+        <p><label for="iemail">Email:</label>
+            <input type="email" name="gmail" id="iemail" placeholder="aaaa@gmail.com" required autocomplete="email">
+        </p>
+        <p>
+            <label for="itelefone">Nº de telefone</label>
+            <input type="tel" name="telefone" id="itelefone" placeholder="digite seu Nº de telefone" reqtocomplete="tel"
+            pattern="^[0-9]{3}[0-9]{3}[0-9]{3}$">
+        </p>
+        <p>
+            <input type="submit" value="ENTRAR">
+            <input type="reset" value="Limpa">
+        </p>
+    </fieldset>
+    </form>
+</body>
+</html> 
