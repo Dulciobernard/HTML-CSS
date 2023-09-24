@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-aoa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h1>Teste de Formulario</h1>
+        <p>
+            <label for="iano">Em que ano voce nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="iidade">Idade:</label>
+            <output id="iidade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enter">
+            <input type="reset" value="Limpa">
+        </p>
+        <script>
+            function calcIdade(){
+                let atual = new Date().getFullYear()
+                iidade.innerHTML=Number(atual) - Number(iano.value)
+
+            }
+        </script>
+    </form>
+</body>
+</html>

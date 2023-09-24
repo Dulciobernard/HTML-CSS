@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulario</h1> 
+    <form action="" method="get" autocomplete="on">
+         <p>
+            <label for="in1">Numero:</label>
+            <input type="range" name="Namber" id="in1" min="0" max="10"  value="5" oninput="iso.innerHTML= Number(in1.value)">
+            <output id="iso">5</output>
+
+         </p>
+            <p>
+                <input type="submit" value="Enter">
+                <input type="reset" value="Limpa">
+            </p>
+       
+    </form>
+</body>
+</html>
