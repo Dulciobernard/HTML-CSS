@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* para tela*/
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+article::after{
+    content: 'Este artigo foi impressor pelo estudadente Dúlcio Bernardo';
+}
