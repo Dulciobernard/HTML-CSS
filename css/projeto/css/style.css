@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(168, 1, 1);
+    padding: 15px;
+    border-bottom:3px solid #1b0101 ;
+}
+.container{
+    background-color: lightgrey;
+    min-height: 60vh;
+    padding: 3.125rem;
+}
+.filmes-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+.filme-img{
+    height: 300px;
+    width: 100%;
+    margin-bottom:10px;
+    
+    background-size: cover;
+}
+#img1{
+    background-position: center bottom;
+    background-image: url(../img/unnamed.jpg);
+}
+#img2{
+    
+    background-image: url(../img/unnamed.png);
+}
+#img3{
+    background-position: center bottom;
+    background-image: url(../img/20152608.webp);
+}
+#img4{
+    background-image: url(../img/AAAABZ8-5ULrEr3PlPnXjus8aCjKhyRG8796b_NakSxBO5cXksfSZdfXi9aJrBW8442r5eXbVDWJnNCdUKxNoZKDXCS5lgLrRyrqpPpR.jpg);
+}
+#img5{
+    background-image: url(../img/Giras-e-Terriveis-Edicao-Especial.jpg);
+}
+#img6{
+    background-image: url(../img/Carrie-cartaz-682x1024.jpg);
+}
+#img7{
+    background-image: url(../img/Santana_Movie_Poster.jpg);
+}
+#img8{
+    background-image: url(../img/gladiador.jpg);
+}
+#img9{
+    background-position: center center;
+    background-image: url(../img/images.jpeg);
+}
+#img10{
+    background-image: url(../img/20224832.jpg);
+}
+#img11{
+    background-image: url(../img/back_to_the_future_rerelease_movie_poster.webp);
+}
+#img12{
+    background-image: url(../img/b90afbd0-c8d0-4fe4-9752-a51489480a05.jpg);
+}
+#img13{
+background-image: url(../img/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_FMjpg_UX1000_.jpg);
+}
+#img14{
+    background-position: center;
+    background-image: url(../img/images\ \(1\).jpeg);
+}
+#img15{
+    background-image: url(../img/images\ \(2\).jpeg);
+}
+#img16{
+    background-position: center center;
+
+    background-image: url(../img/transferir.jpeg);
+}
+#img17{
+    background-image: url(../img/20120876.webp);
+}
+#img18{
+    background-image: url(../img/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg);
+}
+#img19{
+    background-image: url(..);
+}
+#img20{
+    background-image: url(..);
+}
+
+h3{
+    margin-bottom: 10px;
+    color: red;
+    border-left: 5px solid red;
+    font-size: 24px;
+    padding-left: 7px;
+}
+.card p{
+    margin:0 0 0 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    text-align: center;
+    background-color: red;
+    color: grey;
+    width: 100%;
+    text-decoration: none;
+    padding: .9375rem;
+    border-radius: 1.125rem;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.6s;
+    background-color: rgb(110, 0, 0);
+    color: white;
+}
+footer{
+    background-color: darkred;
+    color: white;
+    border-top: 3px solid rgb(30, 0, 0);
+    text-align: center;
+    padding: 5rem;
+}
