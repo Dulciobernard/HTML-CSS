@@ -1,0 +1,272 @@
+header{
+    width: 100%;
+    position:fixed;
+    padding:60px 4%;
+    top: 0;
+    left:0;
+}
+header.rolagem{
+    background-color: var(--cor0);
+}
+.container{
+    max-width: 80rem;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+.logo{
+    width: 16.5rem;
+    margin-left: -1.875rem;
+}
+.logo img{
+    width: 100%;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+     display: inline-block;
+     margin: 0 40px;
+}
+header ul li a{
+    color: var(--cor5);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+header ul li a:hover{
+    color: var(--cor1);
+}
+.btn-contato button{
+    width: 7.5rem;
+    height: 2.5rem;
+    font-weight: bold;
+    border: 0;
+    background-color: #00D931;
+    border-radius:12px;
+    color: var(--cor0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-contato button:hover{
+    background-color: transparent;
+    transition: .5s;
+    border: .25rem solid var(--cor1);
+    color: var(--cor1);
+}
+.ogi{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    max-width: 400vw;
+    padding: 20px;
+    background-color:var(--cor5) ;
+}
+.containerogi{
+    align-content: center;
+    align-items: center;
+
+}
+.primeiroh2{
+    color: var(--cor0);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.segundooh2{
+    color: var(--cor1);
+    font-size: 33px;
+    font-weight: 700;
+    padding: 10px;
+    line-height: 44px;
+}
+.primeirop{
+  color: var(--cor1);
+  font-size:  10px;
+}
+.segundop{
+    color: var(--cor1);
+  font-size:  20px;
+  font-style: italic;
+}
+.ogi ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: var(--cor0);
+}
+.imgogi{
+    width: 60vw;
+}
+ img{
+    width: 100%;
+    height: 100%;
+}
+.sobrenos{
+    margin-top: 40px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img1{
+    width:100vw;
+    height:30vw;
+}
+.img2{
+    width:100vw;
+    height:30vw;
+}
+
+.line-divider {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 2px;
+    background-color: var(--cor1);
+    width: 35px;
+    float: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .servi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+  }
+  
+  .lavagemderopas {
+    border-radius: 10px;
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  #precos{
+    background-color: lightgray;
+    width:105.2%;
+  }
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+th {
+    background-color: #f2f2f2;
+}
+footer{
+    background-color: var(--cor5);
+    letter-spacing: 1px;
+    width:100%;
+}
+#container{
+    color: var(--cor0);
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    padding: 3rem 3.5rem;
+}
+.footer-social{
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+#social a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid  var(--cor6) ;
+    border-radius: 100%;
+    font-size: 20px;
+    color:  var(--cor6);
+    text-decoration: none;
+}
+#footer-list{
+    list-style: none;
+    margin-top: 5px;
+}
+#footer-list li{
+    padding-top: 10px; 
+}
+#footer-list a{
+    text-decoration: none;
+    padding-top: 5px;
+    color: var(--cor0);
+}
+#footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor0);
+    font-weight: bold;
+    font-family: var(--font);
+}
+@media screen and (max-width: 768px) {
+    .servi{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .lavagemderopas{
+      width: 90%;
+    }
+  }
+@media screen and (max-width:768px) {
+    #container{
+         grid-template-columns: repeat(2,1fr);
+         gap:2rem;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    #container{
+        grid-template-columns: repeat(1,1fr);     
+        
+    }
+    #footer-copyright{
+        padding:15px 10px;
+    }
+}
+@media screen and (max-width:768px) {
+   .ogi{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+   }
+   .imgogi{
+        width: 90vw;
+   }
+   .imgogi img{
+     width: 100%;
+   }
+
+}  
+@media screen and(min-width:  769px) and (max-width: 1024px)
+ {
+    .imgogi{
+        width: 80vw;
+    }
+    .imgogi img{
+        width: 100%;
+    }
+}
