@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon/4/favicon.ico" type="image/x-icon">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/index.js"></script>
     <title>Lavandaria Luminosa</title>
 </head>
 <body>
     <header id="header">
         <div class="container">
             <div class="flex">
-                <div class="logo"><a href="#" class="logo"><img src="assets/img/dbbr.png" alt=""></a></div>
-                 
-                <nav>
-                    <ul>
+                <div class="logo">
+                    <a href="#" class="logo"><img src="assets/img/dbbr.png" alt=""></a>
+                </div>
+                <nav class="nav">
+                    <button class="hamburger"></button>
+                    <ul class="nav-list">
                         <li><a href="#">PRODUTOS</a></li>
                         <li><a href="#">Serviços</a></li>
                         <li><a href="#">Promoções</a></li>
                         <li><a href="#">Blog</a></li>
                     </ul>
                 </nav>
-                <div class="btn-contato">
-                   <a href="#">JÁ SOU ASSINANTE</a>
+                <div class="btn-contato" id="btn-contato">
+                    <a href="#">JÁ SOU ASSINANTE</a>
                     <a href="#"><button>ENTRAR</button></a>
                 </div>
             </div>
@@ -38,110 +41,152 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
         </article>
-
         <article>
             <div class="ogi">
                 <div class="imgogi">
                     <img src="assets/img/novahome1-min.png" alt="">
                 </div>
                 <div class="containerogi">
-                   <h2 class="primeiroh2">Desfrute de roupas limpas, macias, aconchegantes e perfumadas!</h2>
-                   <h2 class="segundooh2">
+                    <h2 class="primeiroh2">Desfrute de roupas limpas, macias, aconchegantes e perfumadas!</h2>
+                    <h2 class="segundooh2">
                         Oferecemos serviços de lavanderia de qualidade em Luanda.
-                   </h2>
-                   <p class="primeirop">
-                         * Promoção de terça a quinta. Demais dias 2000 kz.
-                   </p>
+                    </h2>
+                    <p class="primeirop">
+                        * Promoção de terça a quinta. Demais dias 2000 kz.
+                    </p>
                     <ul>
-                        <li>
-                            Qualidade Premium: Usamos tecnologia de ponta para garantir que suas roupas fiquem impecáveis.
-                        </li>
-                        <li>
-                            Conveniência Total: Oferecemos coleta e entrega, tornando a lavanderia mais fácil do que nunca.
-                        </li>
-                        <li>
-                            Preços Competitivos: Mantemos preços acessíveis para você.
-                        </li>
+                        <li>Qualidade Premium: Usamos tecnologia de ponta para garantir que suas roupas fiquem impecáveis.</li>
+                        <li>Conveniência Total: Oferecemos coleta e entrega, tornando a lavanderia mais fácil do que nunca.</li>
+                        <li>Preços Competitivos: Mantemos preços acessíveis para você.</li>
                     </ul>
                     <p class="segundop">
                         Simplifique sua rotina de lavanderia na Lavandaria Luminosa!
                     </p>
                 </div>
-            </div>
+            </div>   
+            
         </article>
+       
         <article class="container">
-            <section id="servicos">
+            <div class="section">
+                <div id="lavandaria-luminosa" >
+                    <h3>Lavandaria Luminosa</h3>
+                    <p>A Lavandaria Luminosa é uma rede de lavandarias que tem como missão fornecer aos seus clientes serviços de lavandaria de qualidade, a preços competitivos, contribuindo para o bem-estar e comodidade da população. Criada em Angola em 2014, oferece uma gama completa de serviços de lavandaria, desde a limpeza de roupas até ao tratamento de peças delicadas.</p>
+                    <div class="stats">
+                        <div class="stats-item">
+                            <div class="icon">4</div>
+                            <div class="text">ANOS DE EXPERIÊNCIA</div>
+                        </div>
+                        <div class="stats-item">
+                            <div class="icon">7</div>
+                            <div class="text">LOJAS</div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="images1">
+                    <img width="510" height="1000" src="assets/img/12-Lauandi_48__DSC9908-Edit.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy" title="farmacia1" sizes="(max-width: 510px) 100vw, 510px">
+    
+                    
+                     
+                </div>
+                <div class="images1">
+                    
+                    <img width="510" height="750" src="assets/img/12-Lauandi_47__DSC9903-Edit.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy" title="farmacia2" 
+                    sizes="(max-width: 510px) 100vw, 510px">
+                </div>
+          
+            </div>
+            <section id="servicos" class="contain">
                 <h2>Nossos Serviços</h2>
                 <div class="servi">
-                    <div class="lavagemderopas">
-                        <h3>Lavagem de Roupas</h3>
-                        <p>Deixe-nos cuidar das suas roupas sujas e devolvê-las frescas e limpas.</p>
+                    <div class="lavagemderopas" id="card">
+                        <div class="servi-img"><img src="assets/img/lavar-roupa-erros.jpg" alt=""></div>
+                        <h3 class="h3">Lavagem de Roupas</h3>
+                        
                     </div>
-                    <div class="lavagemderopas">
-                        <h3>Secagem</h3>
-                        <p>Garantimos que suas roupas estejam prontas para uso com nosso serviço de secagem eficiente.</p>
+                    <div class="lavagemderopas" id="card">
+                        <div class="servi-img"><img src="assets/img/lavar-roupa-erros.jpg" alt=""></div>
+                        <h3 class="h3">Secagem</h3>
                     </div>
-                    <div class="lavagemderopas">
-                        <h3>Passagem a Ferro</h3>
-                        <p>Suas roupas ficarão impecáveis e prontas para vestir com o nosso serviço de passagem a ferro.</p>
+                    <div class="lavagemderopas" id="card">
+                        <div class="servi-img"><img src="assets/img/lavar-roupa-erros.jpg" alt=""></div>
+                        <h3 class="h3">Passagem a Ferro</h3>
                     </div>
-                    <div class="lavagemderopas">
-                        <h3>Lavagem a Seco</h3>
-                        <p>Cuidamos das peças mais delicadas com nosso serviço de lavagem a seco de alta qualidade.</p>
+                    <div class="lavagemderopas" id="card">
+                        <div class="servi-img"><img src="assets/img/lavar-roupa-erros.jpg" alt=""></div>
+                        <h3 class="h3">Lavagem a Seco</h3>
                     </div>
-                    <div class="lavagemderopas">
-                        <h3>Entrega e Recolha</h3>
-                        <p>Tornamos a lavanderia mais conveniente com nosso serviço de entrega e recolha.</p>
+                    <div class="lavagemderopas" id="card">
+                        <div class="servi-img"><img src="assets/img/lavar-roupa-erros.jpg" alt=""></div>
+                        <h3 class="h3">Entrega e Recolha</h3>
                     </div>
-                    <div class="lavagemderopas">
-                        <h3>Remoção de Manchas</h3>
-                        <p>Oferecemos um serviço especializado para garantir que suas roupas fiquem imaculadas, livres de manchas indesejadas.</p>
+                    <div class="lavagemderopas" id="card">
+                        <div class="servi-img"><img src="assets/img/lavar-roupa-erros.jpg" alt=""></div>
+                        <h3 class="h3">Remoção de Manchas</h3>
                     </div>
                 </div>
                 <p>Confie na Lavandaria Luminosa para todos os seus serviços de cuidados com as roupas</p>
             </section>
-        
             <section id="precos">
                 <h2>Preços</h2>
                 <p>Confira nossa tabela de preços para obter informações detalhadas sobre o custo dos nossos serviços. Oferecemos opções acessíveis.</p>
                 <h1 style="text-align: center;">Tabela de Preços - Lavandaria Angola</h1>
                 <table>
-                    <tr>
-                        <th>Serviço</th>
-                        <th>Preço (Kz)</th>
-                    </tr>
-                    <tr>
-                        <td>Lavagem de Roupas</td>
-                        <td>500 Kz</td>
-                    </tr>
-                    <tr>
-                        <td>Secagem</td>
-                        <td>300 Kz</td>
-                    </tr>
-                    <tr>
-                        <td>Passagem a Ferro</td>
-                        <td>200 Kz</td>
-                    </tr>
-                    <tr>
-                        <td>Lavagem a Seco</td>
-                        <td>700 Kz</td>
-                    </tr>
-                    <tr>
-                        <td>Remoção de Manchas</td>
-                        <td>250 Kz por peça</td>
-                    </tr>
-                    <tr>
-                        <td>Entrega e Recolha</td>
-                        <td>Grátis</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Preço (Kz)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lavagem de Roupas</td>
+                            <td>500 Kz</td>
+                        </tr>
+                        <tr>
+                            <td>Secagem</td>
+                            <td>300 Kz</td>
+                        </tr>
+                        <tr>
+                            <td>Passagem a Ferro</td>
+                            <td>200 Kz</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem a Seco</td>
+                            <td>700 Kz</td>
+                        </tr>
+                        <tr>
+                            <td>Remoção de Manchas</td>
+                            <td>250 Kz por peça</td>
+                        </tr>
+                        <tr>
+                            <td>Entrega e Recolha</td>
+                            <td>Grátis</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td>1650 Kz</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </section>
             <section id="contacto">
                 <h2>Contacto</h2>
                 <p>Entre em contato conosco para agendar serviços de lavandaria, fazer perguntas ou fornecer feedback. Estamos à disposição para ajudar.</p>
+                <form action="https://formsubmit.co/ajax/dulciobernardo80@gmail.com" method="post" data-form>
+                    <label for="nome">Nome</label>
+                          <input type="text" name="nome" id="nome" required>
+                          <label for="email">E-mail</label>
+                          <input type="email" name="email" id="email">
+                          <label for="mensagem">Mensagem</label>
+                          <textarea name="mensagem" id="mensagem" required></textarea>
+                          <button class="gg" type="submit" data-button>Enviar</button>
+                        </form>
             </section>
         </article>
     </main>
@@ -205,6 +250,5 @@
             &copy; Copyright Lavandaria Luminosa 2023
         </div>
     </footer>
-    <script src="assets/js/index.js"></script>
 </body>
 </html>
