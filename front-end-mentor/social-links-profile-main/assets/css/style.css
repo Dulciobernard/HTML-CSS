@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--DarkGrey: hsl(0, 0%, 12%);
+--OffBlack: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: var(--OffBlack);
+    color: var(--White);
+
+}
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--OffBlack);
+}
+section{
+    width: 360px;
+    border-radius: 12px;
+    background-color: var(--DarkGrey);
+}
+.avatar{
+   width: 90px;
+   margin:40px auto 20px;
+}
+.avatar img{
+    width: 100%;
+    border-radius: 100%;
+}
+h1{
+    text-align: center;
+    margin: 8px;
+}
+.p1{
+    color: var(--Green);
+    font-weight:bold;
+    text-align: center;
+    font-size: 14px;
+    margin: 8px;
+}
+.p2{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.midia_social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.social{
+    width: 300px;
+    text-align: center;
+    background-color: var(--Grey);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px; 
+}
+.social:hover{
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    cursor: pointer;
+}
